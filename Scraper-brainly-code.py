@@ -23,6 +23,7 @@ def utama():
 
     os.system('cls')
     tprint('Brainly')
+    print('                                            \033[32mPertanyaan : {0}\n                                            \033[32mJumlah pertanyaan : {1}'.format(pertanyaan,jumlah_pertanyaan))
     scrap=brainly("""{0}""".format(pertanyaan), jumlah_pertanyaan)
 
     for i in scrap:
@@ -38,8 +39,10 @@ def type_slowly(text, speed, newLine = True):
         print() 
 
 utama()
-while True:
+while True:       
     tanya_kembali = input('\nJawab y untuk kembali bertanya jika tidak Tekan saja: ')
     if tanya_kembali == 'y':
         os.system('cls')
         utama()
+    else:
+        sys.exit()
