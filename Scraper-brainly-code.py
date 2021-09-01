@@ -37,8 +37,9 @@ def type_slowly(text, speed, newLine = True):
     if newLine:
         print() 
 
-utama()         
-tanya_kembali = input('\nJawab y untuk kembali bertanya jika tidak Tekan saja: ')
-if tanya_kembali == 'y':
-    os.system('cls')
-    utama()
+utama()
+while True:
+    tanya_kembali = input('\nJawab y untuk kembali bertanya jika tidak Tekan saja: ')
+    if tanya_kembali == 'y':
+        os.system('cls')
+        utama()
