@@ -1,2 +1,6 @@
-# Brainly-Scraper
-Brainly scraper nya sudah saya bentuk dalam suatu program yang mencakupi semua kebutuhan belajar kamu
+# INFORMASI
+- Program ini hanya saya kemas dalam 1 file agar pemakaiannya lebih gampang dan efektif
+- Program ini saya buat juga untuk membantu saya dalam belajar
+
+# CREDIT
+- Krypton-Bytes
